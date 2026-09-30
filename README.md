@@ -29,9 +29,9 @@ Create FMOD Studio events from a folder of audio files. Choose import settings i
 
 To update, replace the installed file and reload scripts again.
 
-## Quick start: individual voice lines
+## Quick start
 
-1. Choose the folder containing your recordings.
+1. Choose the folder containing your audio files.
 2. Set **Import method** to **Choose settings**.
 3. Choose:
    - **Create:** An event for each file (Single)
@@ -42,7 +42,7 @@ To update, replace the installed file and reload scripts again.
 5. Click **Preview** to inspect the proposed names and settings.
 6. Click **Import**. The dialog displays the results and detailed log.
 
-For example, `viking_gold eh.wav` becomes an event named `viking_gold eh`. No special suffixes are needed.
+For example, `button_click.wav` becomes an event named `button_click`. No special suffixes are needed.
 
 ## Import methods
 
@@ -67,8 +67,8 @@ Use this mode when different files need different playback settings. The manual 
 
 Add suffixes before the file extension:
 
-- **No suffix:** creates a single 2D, one-shot event. `greeting.wav` becomes `greeting`.
-- **`_3d`:** adds a spatializer. `greeting_3d.wav` becomes a 3D event named `greeting`.
+- **No suffix:** creates a single 2D, one-shot event. `door_open.wav` becomes `door_open`.
+- **`_3d`:** adds a spatializer. `door_open_3d.wav` becomes a 3D event named `door_open`.
 - **`_loop`:** adds a timeline loop region. `wind_loop.wav` becomes a looping event named `wind`.
 - **`_multi_N`:** groups numbered variations in the same folder into one multi-instrument event. `footsteps_multi_1.wav` and `footsteps_multi_2.wav` become `footsteps`.
 - **`_scat_N`:** groups numbered variations into a scatterer event. `birds_scat_1.wav` and `birds_scat_2.wav` become `birds`. Scatterers are always 3D and use timelines.
